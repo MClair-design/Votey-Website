@@ -3,52 +3,71 @@ import Image from "next/image";
 export default function Home() {
 
   return (
-    <div className="flex flex-col flex-1 items-center justify-center font-sans">
-      <main className="flex flex-1 w-full flex-col items-center justify-between py-32 bg-[#FFFEF5]">
+    <div className="flex flex-col flex-1 justify-center font-sans bg-[#FFFEF5]">
+      <main className="flex flex-1 w-full flex-col justify-between py-32 bg-[#FFFEF5]">
           
           <div className="flex flex-col items-center gap-8">
           <div className="flex items-center justify-center ml-42 mr-42">
             <img src="Votey.png" alt="Votey Logo" />
           </div>
-
-          <h1 className="text-center text-8xl leading-10 tracking-tight font-bagel text-[#F77646]">
+          
+          <h1 className="text-center text-9xl leading-10 tracking-tight font-bagel text-[#F77646] mt-6">
             Votey
           </h1>
           </div>
-          <p className="text-lg leading-8">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <p className="text-center text-3xl leading-8 font-medium mt-22">
+            To make planning feel like a holiday.
           </p>
 
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-        </div>
+          <img src="leaf1.png" className="absolute h-120 mt-160"/>
+
+          <div className="flex flex-col pl-25 mt-30">
+            <div className="p-6 bg-[#F7CE46] rounded-lg w-1/3">
+              <h2 className="text-6xl text-center ">Travel with us</h2>
+            </div>
+            <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
+              Join our community of travelers and discover new destinations together. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem porro tenetur omnis quam dolores illum. Omnis aperiam corporis itaque nulla totam exercitationem blanditiis! Officiis similique quibusdam a veritatis atque!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae dignissimos doloribus minima possimus eaque assumenda! Dolorum quasi excepturi accusantium rem veniam modi molestiae doloribus explicabo mollitia in, libero quibusdam.
+            </p>
+            
+          </div>
+          
+          
+          <div className="relative flex flex-col items-end text-right">
+          
+            <img src="leaf2.png" className="absolute align-right h-120"/>
+           
+            <div className="p-6 bg-[#98FB82] rounded-lg w-1/3 mt-90 mr-25">
+              <h2 className="text-6xl text-center">Download</h2>
+            </div>
+
+            <p className="text-center text-2xl flex font-inter flex-row mr-70 w-2/3 mt-16">
+              Download our app and start planning your next adventure today!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, officia quas nostrum ut libero fugiat? Commodi voluptatem quisquam, architecto odit omnis sit, molestiae quam ipsam adipisci, voluptate veniam repellendus enim?
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sapiente non ea tempora sit explicabo pariatur ut, iure autem labore iste dicta? Rem, alias odio at quam fuga exercitationem accusantium.
+            </p>
+          </div>
+          
+          <div className="flex flex-col">
+            <img src="tree.png" alt="Tree" className=" absolute h-190 w-150"/>
+
+            <div className="p-6 bg-[#E582FB] rounded-lg w-1/3 mt-165 ml-25">
+              <h2 className="text-6xl text-center ">Our Team </h2>
+            </div>
+
+             <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
+              Join our community of travelers and discover new destinations together. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem porro tenetur omnis quam dolores illum. Omnis aperiam corporis itaque nulla totam exercitationem blanditiis! Officiis similique quibusdam a veritatis atque!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae dignissimos doloribus minima possimus eaque assumenda! Dolorum quasi excepturi accusantium rem veniam modi molestiae doloribus explicabo mollitia in, libero quibusdam.
+            </p>
+            
+            <img src="city.png" alt="City" className="absolute h-100 mt-280"/>
+          </div>
+
+          <div className="mt-100"/>
+          
+
+        
       </main>
     </div>
   );
