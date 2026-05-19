@@ -27,10 +27,8 @@ export default function Home() {
               <h2 className="text-6xl text-center ">Travel with us</h2>
             </div>
             <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
-              Join our community of travelers and discover new destinations together. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem porro tenetur omnis quam dolores illum. Omnis aperiam corporis itaque nulla totam exercitationem blanditiis! Officiis similique quibusdam a veritatis atque!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae dignissimos doloribus minima possimus eaque assumenda! Dolorum quasi excepturi accusantium rem veniam modi molestiae doloribus explicabo mollitia in, libero quibusdam.
+              Join our community of travelers and discover new destinations together.
             </p>
-            
           </div>
           
           
@@ -43,9 +41,9 @@ export default function Home() {
             </div>
 
             <p className="text-center text-2xl flex font-inter flex-row mr-70 w-2/3 mt-16">
-              Download our app and start planning your next adventure today!
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, officia quas nostrum ut libero fugiat? Commodi voluptatem quisquam, architecto odit omnis sit, molestiae quam ipsam adipisci, voluptate veniam repellendus enim?
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sapiente non ea tempora sit explicabo pariatur ut, iure autem labore iste dicta? Rem, alias odio at quam fuga exercitationem accusantium.
+              Download our app and start planning your next adventure today! {}
+              Only for Android users. iOS is coming soon...
+              
             </p>
           </div>
           
@@ -57,8 +55,7 @@ export default function Home() {
             </div>
 
              <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
-              Join our community of travelers and discover new destinations together. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem porro tenetur omnis quam dolores illum. Omnis aperiam corporis itaque nulla totam exercitationem blanditiis! Officiis similique quibusdam a veritatis atque!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, beatae dignissimos doloribus minima possimus eaque assumenda! Dolorum quasi excepturi accusantium rem veniam modi molestiae doloribus explicabo mollitia in, libero quibusdam.
+              We are a team of passionate travelers dedicated to making your next adventure unforgettable.
             </p>
             
             <img src="city.png" alt="City" className="absolute h-100 mt-280"/>
