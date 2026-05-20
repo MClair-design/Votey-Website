@@ -26,8 +26,12 @@ export default function Home() {
             <div className="p-6 bg-[#F7CE46] rounded-lg w-1/3">
               <h2 className="text-6xl text-center ">Travel with us</h2>
             </div>
-            <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
+            <p className="text-center text-2xl font-inter ml-45 w-2/3 mt-16 leading-12">
               Join our community of travelers and discover new destinations together.
+              <br/>
+              <span className="font-semibold">Create</span> a trip, <span className="font-semibold">invite</span> your friends, and let the <span className="font-semibold">voting</span> begin!
+              <br/>
+              With Votey, you can easily plan your <span className="font-semibold">next adventure</span> with your friends and family.
             </p>
           </div>
           
@@ -40,11 +44,12 @@ export default function Home() {
               <h2 className="text-6xl text-center">Download</h2>
             </div>
 
-            <p className="text-center text-2xl flex font-inter flex-row mr-70 w-2/3 mt-16">
-              Download our app and start planning your next adventure today! {}
-              Only for Android users. iOS is coming soon...
-              
+            <p className="text-center text-2xl font-inter mr-80 w-2/3 mt-16 leading-12">         
+            Download our app and start planning your next adventure today!
+              <br />
+              Only for <span className="font-semibold">Android</span> users. iOS is coming soon...
             </p>
+
           </div>
           
           <div className="flex flex-col">
@@ -54,8 +59,11 @@ export default function Home() {
               <h2 className="text-6xl text-center ">Our Team </h2>
             </div>
 
-             <p className="text-center text-2xl flex font-inter flex-row ml-65 w-2/3 mt-16">
-              We are a team of passionate travelers dedicated to making your next adventure unforgettable.
+             <p className="text-center text-2xl font-inter ml-65 w-2/3 mt-16 leading-10">
+              We are a team of passionate travelers dedicated to making your next adventure unforgettable. 
+              This App was created as part of a project for our last semester at the University of Applied Sciences St. Pölten.
+              <br/>
+              <span className="font-semibold">We hope you enjoy using Votey as much as we enjoyed creating it!</span>
             </p>
             
             <img src="city.png" alt="City" className="absolute h-100 mt-280"/>
