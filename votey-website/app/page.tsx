@@ -17,7 +17,7 @@ export default function Home() {
           </div>
 
           <p className="text-center text-3xl leading-8 font-medium mt-22">
-            To make planning feel like a holiday.
+           Make travel planning feel like a holiday.
           </p>
 
           <img src="leaf1.png" className="absolute h-120 mt-160"/>
