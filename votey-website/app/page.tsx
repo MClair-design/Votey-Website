@@ -65,11 +65,9 @@ export default function Home() {
               <br/>
               <span className="font-semibold">We hope you enjoy using Votey as much as we enjoyed creating it!</span>
             </p>
-            
-            <img src="city.png" alt="City" className="absolute h-40 lg:h-90 mt-250 sm:mt-180 xl:mt-290"/>
           </div>
 
-          <div className="sm:pt-40 lg:pt-70"/>
+          <div className="pt-40"/>
           
 
         
