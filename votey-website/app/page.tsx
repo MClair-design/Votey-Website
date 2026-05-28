@@ -49,13 +49,14 @@ export default function Home() {
               <br />
               Only for <span className="font-semibold">Android</span> users. iOS is coming soon...
             </p>
+            <img src="QR.png" alt="QR Code" className="absolute h-50 xl:h-120 mt-140 mr-25 xl:mt-180 xl:mr-40"/>
 
           </div>
           
           <div className="flex flex-col">
-            <img src="tree.png" alt="Tree" className=" absolute h-100 xl:h-190 w-60 xl:w-150"/>
+            <img src="tree.png" alt="Tree" className=" absolute h-90 xl:h-190 w-60 xl:w-150 mt-60 xl:mt-10"/>
 
-            <div className="p-6 bg-[#E582FB] rounded-lg w-1/3 ml-5 mt-80 xl:mt-165 xl:ml-25">
+            <div className="p-6 bg-[#E582FB] rounded-lg w-1/3 ml-5 mt-132 xl:mt-167 xl:ml-25">
               <h2 className="text-xl text-center lg:text-6xl">Our Team </h2>
             </div>
 
