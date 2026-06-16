@@ -1,6 +1,9 @@
 # Votey-Website
-Votey is a collaborative travel planning application that enables groups to organize trips in a structured and fair way. Instead of using unstructured group chats, users can propose activities, vote on them, and automatically generate a shared itinerary.
 
-Click the link down below to install the app!
+Votey is a collaborative travel planning app designed to help groups organize trips more easily. Instead of relying on messy group chats, Votey lets users suggest activities, vote together, and create a shared itinerary in a structured and fair way.
 
-https://github.com/MClair-design/Votey-Website/releases/download/v0.0.3.-prerelease/votey-final-release.apk 
+## Android download
+
+Votey is currently available for **Android users only**.
+
+[Install Votey for Android](https://github.com/MClair-design/Votey-Website/releases/tag/v1.0.0-release#:~:text=votey%2Dapp%2Dvernissage.apk)
