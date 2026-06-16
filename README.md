@@ -2,7 +2,7 @@
 <img width="220" alt="votey-logo" src="https://github.com/user-attachments/assets/98a075be-c504-441f-ba41-bc14d9da94ed" />
 </p>
 
-# Votey – Collaborative group travel planning
+# Collaborative group travel planning app
 
 Votey is a collaborative travel planning app designed to help groups organize trips more easily. Instead of relying on messy group chats, Votey lets users suggest activities, vote together, and create a shared itinerary in a structured and fair way.
 
