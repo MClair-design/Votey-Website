@@ -8,4 +8,4 @@ Votey is a collaborative travel planning app designed to help groups organize tr
 
 ### Android download
 Votey is currently available for **Android users only**.</br>
-[Install Votey for Android](https://github.com/MClair-design/Votey-Website/releases/download/v1.0.0-release/votey-app-vernissage.apk)
+[Install Votey for Android]([https://github.com/MClair-design/Votey-Website/releases/download/v1.0.0-release/votey-app-vernissage.apk](https://github.com/MClair-design/Votey-Website/releases/tag/v.2.0.0#:~:text=votey%2Dfinal%2Drelease.apk))
